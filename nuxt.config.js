@@ -14,9 +14,6 @@ module.exports = {
     ]
   },
 
-  generate: {
-    dir: 'docs'
-  },
   /*
   ** Customize the progress bar color
   */
@@ -38,5 +35,13 @@ module.exports = {
         })
       }
     }
+  },
+  generate: {
+    dir: 'docs',
+    routes: [
+      '/gallery/39888311',
+      '/gallery/43082852',
+      '/gallery/46811608'
+    ]
   }
 }
